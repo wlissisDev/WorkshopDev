@@ -277,5 +277,55 @@ form button:hover {
 
 }
 
+/* IDEIA.HTML*/
 
+#page-ideias #container {
+    display: block;
+}
+#page-ideias header {
+    display: flex;
+    justify-content: space-between;
+}
 
+#page-ideias nav {
+    display: flex;
+    align-items: center;
+
+}
+
+#page-ideias nav li {
+    list-style-type:none ;
+
+    margin-right: 16px;
+}
+
+#page-ideias nav li a {
+    color: #24282b;
+}
+
+#page-ideias nav li:last-child {
+    margin-right: 0;  
+}
+
+#page-ideias nav li:last-child a {
+    width: 150px;
+    height: 40px;
+
+    font-size: 14px;
+    font-weight: bold;
+   
+    
+    background-color: #ff5E84;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+}
+
+#page-ideias nav li:last-child a:hover {
+    background-color: #0984e3;
+    text-decoration: none;
+}
